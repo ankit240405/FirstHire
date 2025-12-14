@@ -237,7 +237,7 @@ export default function AuthLanding() {
                   ...styles.copyright,
                   ...(isMobile ? { fontSize: '0.75rem' } : {})
                 }}>
-                  © 2024 FirstHire
+                  © 2024 FirstHire by Ankit Sharma
                 </p>
               </div>
             </div>

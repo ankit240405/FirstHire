@@ -41,7 +41,7 @@ function Navbar() {
                 FIRST<span style={styles.accent}>HIRE</span>
               </span>
               <span style={styles.companyTagline}>
-                AI ATS Scanner
+                AI ATS Scanner by Ankit Sharma
               </span>
             </div>
           </div>
