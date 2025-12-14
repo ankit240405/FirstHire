@@ -16,8 +16,7 @@ export default function Profile() {
     async function fetchScans() {
       try {
         const token = await getToken();
-        const res = await fetch(
-          import.meta.env.VITE_API_BASE_URL + "/api/analyze/history",
+        const res = await fetch("/api/analyze/history",
           {
             headers: {
               Authorization: `Bearer ${token}`,
